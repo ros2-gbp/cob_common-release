@@ -2,6 +2,26 @@
 Changelog for package raw_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.4 (2015-08-29)
+------------------
+* fix typo in collision mesh file name
+* add explicit exec_depend to xacro
+* fix catkin_minimum_required version
+* remove trailing whitespaces
+* remove trailing whitespaces
+* migrate to package format 2
+* sort dependencies
+* critically review dependencies
+* Contributors: ipa-fxm
+
+0.6.3 (2015-06-17)
+------------------
+* allow laser calibration
+* remove unsupported calibration_rising
+* separate xacro macro for drive_wheel module used in all bases + significant simplification
+* use PositionJointInterface
+* Contributors: ipa-fxm
+
 0.6.2 (2014-12-15)
 ------------------
 * use VelocityJointInterface hardware interfaces for simulation of all bases

@@ -1,16 +1,24 @@
-language: cpp
-compiler: gcc
-before_install:
-  - sudo pip install rosdep
-  - sudo rosdep init && rosdep update
-  - sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu precise main" > /etc/apt/sources.list.d/ros-latest.list'
-  - wget http://packages.ros.org/ros.key -O - | sudo apt-key add -
-  - sudo apt-get update -qq
+sudo: required
+dist: trusty
+# Force travis to use its minimal image with default Python settings
+language: generic
+compiler:
+  - gcc
+
+env:
+  global:
+    - CATKIN_WS=~/catkin_ws
+    - CATKIN_WS_SRC=${CATKIN_WS}/src
+    - CATKIN_WS_UNDERLAY=~/catkin_ws_underlay
+    - CATKIN_WS_UNDERLAY_SRC=${CATKIN_WS_UNDERLAY}/src
+    - CI_ROS_DISTRO="indigo"
+    - ROS_PARALLEL_JOBS=-j1
+    - DEFAULT_ROSINSTALL="https://raw.githubusercontent.com/ipa320/care-o-bot/${CI_ROS_DISTRO}_dev/.travis.rosinstall"
+
 install:
-  - rosdep install --from-paths .. --ignore-src --rosdistro hydro
-  - source /opt/ros/hydro/setup.bash
-  - mkdir -p ~/catkin_ws/src && pushd ~/catkin_ws
-  - catkin_init_workspace src
-  - ln -s `eval echo $(dirs +1)` src/
+  - wget https://raw.githubusercontent.com/ipa320/care-o-bot/${CI_ROS_DISTRO}_dev/.travis.install.sh
+  - bash .travis.install.sh
+
 script:
-  - catkin_make
+  - wget https://raw.githubusercontent.com/ipa320/care-o-bot/${CI_ROS_DISTRO}_dev/.travis.script.sh
+  - bash .travis.script.sh

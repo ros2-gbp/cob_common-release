@@ -1,3 +1,31 @@
+## cob_common (kinetic) - 0.6.7-0
+
+The packages in the `cob_common` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release cob_common --track kinetic --rosdistro kinetic` on `Mon, 17 Jul 2017 13:15:32 -0000`
+
+These packages were released:
+- `cob_common`
+- `cob_description`
+- `cob_msgs`
+- `cob_srvs`
+- `raw_description`
+
+Version of package(s) in repository `cob_common`:
+
+- upstream repository: https://github.com/ipa320/cob_common.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.6.7-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.5`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## cob_common (indigo) - 0.6.7-0
 
 The packages in the `cob_common` repository were released into the `indigo` distro by running `/usr/bin/bloom-release cob_common --track indigo --rosdistro indigo` on `Mon, 17 Jul 2017 13:00:31 -0000`

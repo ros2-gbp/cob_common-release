@@ -1,10 +1,9 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-  <xacro:include filename="$(find cob_description)/urdf/sensors/realsense.gazebo.xacro" />
+  <xacro:include filename="$(find cob_description)/urdf/sensors/usb_cam.gazebo.xacro" />
 
-  <xacro:macro name="realsense" params="name parent ros_topic *origin">
-
+  <xacro:macro name="usb_cam" params="name parent *origin ros_topic update_rate height width">
     <joint name="${name}_joint" type="fixed">
       <xacro:insert_block name="origin" />
       <parent link="${parent}"/>
@@ -13,7 +12,7 @@
 
     <link name="${name}_link">
       <inertial>
-        <mass value="0.564" />
+        <mass value="0.1" />
         <origin xyz="0 0 0" />
         <inertia ixx="0.003881243" ixy="0.0" ixz="0.0" iyy="0.000498940" iyz="0.0" izz="0.003879257" />
       </inertial>
@@ -31,8 +30,18 @@
       </collision>
     </link>
 
+    <joint name="${name}_frame_joint" type="fixed">
+      <origin xyz="0 0 0" rpy="${M_PI/2} -${M_PI/2} 0" />
+      <parent link="${name}_link"/>
+      <child link="${name}_frame"/>
+    </joint>
+
+    <link name="${name}_frame"/>
     <!-- extensions -->
-    <xacro:realsense_gazebo name="${name}" ros_topic="${ros_topic}" />
+    <xacro:usb_cam_gazebo name="${name}" ros_topic="${ros_topic}"
+									     update_rate="${update_rate}"
+									     height="${height}"
+									     width="${width}"/>
   </xacro:macro>
 
 </robot>

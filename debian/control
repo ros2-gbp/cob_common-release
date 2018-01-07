@@ -1,0 +1,12 @@
+Source: ros-kinetic-cob-srvs
+Section: misc
+Priority: extra
+Maintainer: Florian Weisshardt <fmw@ipa.fhg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-message-generation
+Homepage: http://ros.org/wiki/cob_srvs
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-cob-srvs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-message-runtime
+Description: This Package contains Care-O-bot specific service definitions.

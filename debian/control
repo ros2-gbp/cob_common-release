@@ -1,0 +1,13 @@
+Source: ros-melodic-cob-common
+Section: misc
+Priority: extra
+Maintainer: Felix Messmer <felixmessmer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://ros.org/wiki/cob_common
+Standards-Version: 3.9.2
+
+Package: ros-melodic-cob-common
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-cob-actions, ros-melodic-cob-description, ros-melodic-cob-msgs, ros-melodic-cob-srvs, ros-melodic-raw-description
+Description: The cob_common stack hosts common packages that are used within the Care-O-bot repository.
+ E.g. utility packages or common message and service definitions etc. Also the urdf desciption of the robot is located in this stack.

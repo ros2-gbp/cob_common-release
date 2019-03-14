@@ -1,3 +1,32 @@
+## cob_common (melodic) - 0.6.10-0
+
+The packages in the `cob_common` repository were released into the `melodic` distro by running `/usr/bin/bloom-release cob_common --rosdistro melodic` on `Thu, 14 Mar 2019 12:22:15 -0000`
+
+These packages were released:
+- `cob_actions`
+- `cob_common`
+- `cob_description`
+- `cob_msgs`
+- `cob_srvs`
+- `raw_description`
+
+Version of package(s) in repository `cob_common`:
+
+- upstream repository: https://github.com/ipa320/cob_common.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.6.10-0`
+
+Versions of tools used:
+
+- bloom version: `0.7.2`
+- catkin_pkg version: `0.4.10`
+- rosdep version: `0.15.1`
+- rosdistro version: `0.7.2`
+- vcstools version: `0.1.40`
+
+
 ## cob_common (kinetic) - 0.6.10-0
 
 The packages in the `cob_common` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release cob_common --rosdistro kinetic` on `Thu, 14 Mar 2019 12:09:18 -0000`

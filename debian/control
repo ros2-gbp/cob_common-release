@@ -1,0 +1,12 @@
+Source: ros-kinetic-cob-actions
+Section: misc
+Priority: extra
+Maintainer: Felix Messmer <felixmessmer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-actionlib-msgs, ros-kinetic-catkin, ros-kinetic-message-generation
+Homepage: http://ros.org/wiki/cob_actions
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-cob-actions
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-actionlib-msgs, ros-kinetic-message-runtime
+Description: This Package contains Care-O-bot specific action definitions.

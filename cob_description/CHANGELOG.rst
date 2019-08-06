@@ -2,6 +2,30 @@
 Changelog for package cob_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.0 (2019-08-06)
+------------------
+* Merge pull request `#271 <https://github.com/ipa320/cob_common/issues/271>`_ from benmaidel/feature/melodify
+  [Melodic]
+* fix default value
+* more hardware_interface prefixing
+* fixed xacro:if condition for melodic
+* added hardware_interface prefix for transmission (melodic's cob_gazebo_ros_control plugin expects it)
+* Contributors: Benjamin Maidel, Felix Messmer, fmessmer
+
+0.6.12 (2019-05-20)
+-------------------
+* Merge pull request `#269 <https://github.com/ipa320/cob_common/issues/269>`_ from fmessmer/fixed_link_helper_macro
+  add helper macro for fixed links
+* add helper macro for fixed links
+* Contributors: Felix Messmer, fmessmer
+
+0.6.11 (2019-04-05)
+-------------------
+* Merge pull request `#266 <https://github.com/ipa320/cob_common/issues/266>`_ from fmessmer/steer_joint_max_vel
+  reduce steer joint max vel
+* reduce steer joint max vel
+* Contributors: Felix Messmer, fmessmer
+
 0.6.10 (2019-03-14)
 -------------------
 * Merge pull request `#258 <https://github.com/ipa320/cob_common/issues/258>`_ from fmessmer/tricycle_backwards

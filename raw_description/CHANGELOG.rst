@@ -2,6 +2,20 @@
 Changelog for package raw_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.0 (2019-08-06)
+------------------
+* Merge pull request `#271 <https://github.com/ipa320/cob_common/issues/271>`_ from benmaidel/feature/melodify
+  [Melodic]
+* more hardware_interface prefixing
+* added hardware_interface prefix for transmission (melodic's cob_gazebo_ros_control plugin expects it)
+* Contributors: Benjamin Maidel, Felix Messmer, fmessmer
+
+0.6.12 (2019-05-20)
+-------------------
+
+0.6.11 (2019-04-05)
+-------------------
+
 0.6.10 (2019-03-14)
 -------------------
 

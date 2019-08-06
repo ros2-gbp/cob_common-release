@@ -1,0 +1,28 @@
+ros-melodic-cob-actions (0.7.0-1stretch) stretch; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Mon, 05 Aug 2019 22:00:00 -0000
+
+ros-melodic-cob-actions (0.6.12-1stretch) stretch; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Sun, 19 May 2019 22:00:00 -0000
+
+ros-melodic-cob-actions (0.6.11-1stretch) stretch; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Thu, 04 Apr 2019 22:00:00 -0000
+
+ros-melodic-cob-actions (0.6.10-1stretch) stretch; urgency=high
+
+  * Merge pull request #263 <https://github.com/ipa320/cob_common/issues/263> from fmessmer/add_cob_actions
+    add cob_actions
+  * add cob_actions
+  * Contributors: Felix Messmer, fmessmer
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Wed, 13 Mar 2019 23:00:00 -0000
+
+

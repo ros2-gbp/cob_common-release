@@ -1,3 +1,32 @@
+## cob_common (noetic) - 0.7.3-1
+
+The packages in the `cob_common` repository were released into the `noetic` distro by running `/usr/bin/bloom-release cob_common --rosdistro noetic` on `Sat, 26 Sep 2020 14:32:29 -0000`
+
+These packages were released:
+- `cob_actions`
+- `cob_common`
+- `cob_description`
+- `cob_msgs`
+- `cob_srvs`
+- `raw_description`
+
+Version of package(s) in repository `cob_common`:
+
+- upstream repository: https://github.com/ipa320/cob_common.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.7.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.8`
+- catkin_pkg version: `0.4.22`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## cob_common (melodic) - 0.7.3-1
 
 The packages in the `cob_common` repository were released into the `melodic` distro by running `/usr/bin/bloom-release cob_common --rosdistro melodic` on `Sat, 26 Sep 2020 14:11:41 -0000`

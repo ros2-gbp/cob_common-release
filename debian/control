@@ -1,0 +1,13 @@
+Source: ros-noetic-cob-description
+Section: misc
+Priority: optional
+Maintainer: Felix Messmer <felixmessmer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://ros.org/wiki/cob_description
+Standards-Version: 3.9.2
+
+Package: ros-noetic-cob-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-gazebo-ros, ros-noetic-rosbash, ros-noetic-rospy, ros-noetic-rosunit, ros-noetic-xacro
+Description: This package contains the description (mechanical, kinematic, visual, etc.) of the Care-O-bot robot.
+ The files in this package are parsed and used by a variety of other components. Most users will not interact directly with this package.

@@ -2,6 +2,19 @@
 Changelog for package raw_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.7 (2021-12-23)
+------------------
+* Merge pull request `#294 <https://github.com/ipa320/cob_common/issues/294>`_ from fmessmer/unique_control_plugin
+  guarantee unique plugin name for hwi_switch_gazebo_ros_control
+* guarantee unique plugin name for hwi_switch_gazebo_ros_control
+* Contributors: Felix Messmer, fmessmer
+
+0.7.6 (2021-08-02)
+------------------
+
+0.7.5 (2021-07-01)
+------------------
+
 0.7.4 (2020-11-20)
 ------------------
 

@@ -2,6 +2,15 @@
 Changelog for package cob_srvs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.7 (2021-12-23)
+------------------
+
+0.7.6 (2021-08-02)
+------------------
+
+0.7.5 (2021-07-01)
+------------------
+
 0.7.4 (2020-11-20)
 ------------------
 * Merge pull request `#289 <https://github.com/ipa320/cob_common/issues/289>`_ from HannesBachter/feature/dock_service_action

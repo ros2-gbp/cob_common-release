@@ -2,6 +2,9 @@
 Changelog for package raw_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.8 (2022-07-29)
+------------------
+
 0.7.7 (2021-12-23)
 ------------------
 * Merge pull request `#294 <https://github.com/ipa320/cob_common/issues/294>`_ from fmessmer/unique_control_plugin

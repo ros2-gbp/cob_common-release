@@ -1,0 +1,12 @@
+Source: ros-noetic-cob-srvs
+Section: misc
+Priority: optional
+Maintainer: Felix Messmer <felixmessmer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-geometry-msgs, ros-noetic-message-generation
+Homepage: http://ros.org/wiki/cob_srvs
+Standards-Version: 3.9.2
+
+Package: ros-noetic-cob-srvs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-geometry-msgs, ros-noetic-message-runtime
+Description: This Package contains Care-O-bot specific service definitions.

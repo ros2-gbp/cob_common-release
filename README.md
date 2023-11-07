@@ -1,3 +1,34 @@
+## cob_common (humble) - 2.7.9-1
+
+The packages in the `cob_common` repository were released into the `humble` distro by running `/usr/bin/bloom-release --ros-distro humble cob_common` on `Tue, 07 Nov 2023 14:47:49 -0000`
+
+These packages were released:
+- `cob_actions`
+- `cob_msgs`
+- `cob_srvs`
+
+These packages were explicitly ignored:
+- `cob_common`
+- `cob_description`
+- `raw_description`
+
+Version of package(s) in repository `cob_common`:
+
+- upstream repository: https://github.com/ipa320/cob_common.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `2.7.9-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## cob_common (noetic) - 0.7.9-1
 
 The packages in the `cob_common` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --ros-distro noetic cob_common` on `Mon, 06 Nov 2023 15:12:30 -0000`

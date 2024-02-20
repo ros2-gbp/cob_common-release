@@ -141,9 +141,9 @@ tracks:
     name: upstream
     patches: null
     release_inc: '1'
-    release_repo_url: git@github.com:ipa320/cob_common-release.git
+    release_repo_url: git@github.com:4am-robotics/cob_common-release.git
     release_tag: :{version}
     ros_distro: noetic
     vcs_type: git
-    vcs_uri: https://github.com/ipa320/cob_common.git
+    vcs_uri: https://github.com/4am-robotics/cob_common.git
     version: :{auto}

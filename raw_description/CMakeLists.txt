@@ -1,10 +1,10 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.0.2)
 project(raw_description)
 
-find_package(ament_cmake REQUIRED)
+find_package(catkin REQUIRED)
+
+catkin_package()
 
 install(DIRECTORY Media meshes urdf
-    DESTINATION share/${PROJECT_NAME}
+    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
-
-ament_package()

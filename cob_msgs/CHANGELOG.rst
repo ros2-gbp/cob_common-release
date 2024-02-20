@@ -2,6 +2,9 @@
 Changelog for package cob_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.10 (2024-02-20)
+-------------------
+
 0.7.9 (2023-11-06)
 ------------------
 * Merge pull request `#301 <https://github.com/ipa320/cob_common/issues/301>`_ from omar-ihab-ali/update/emergency_stop_state_msg

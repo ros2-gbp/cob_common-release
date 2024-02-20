@@ -2,11 +2,20 @@
 Changelog for package cob_srvs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.7.10 (2024-02-20)
+2.7.10 (2024-02-20)
 -------------------
 
-0.7.9 (2023-11-06)
+2.7.9 (2023-11-06)
 ------------------
+
+2.7.8 (2022-11-18)
+------------------
+* Merge pull request `#299 <https://github.com/ipa320/cob_common/issues/299>`_ from fmessmer/foxy_port_ros2
+  [foxy] port packages
+* harmonize packages
+* port cob_srvs
+* add COLCON_IGNORE
+* Contributors: Felix Messmer, fmessmer
 
 0.7.8 (2022-07-29)
 ------------------

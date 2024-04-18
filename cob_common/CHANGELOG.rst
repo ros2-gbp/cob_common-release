@@ -2,19 +2,19 @@
 Changelog for package cob_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.7.10 (2024-02-20)
+0.7.11 (2024-04-18)
+-------------------
+* Merge pull request `#308 <https://github.com/4am-robotics/cob_common/issues/308>`_ from fmessmer/noetic-devel
+  [ROS1] cob4 eol cleanup
+* remove cob_description
+* remove raw_description
+* Contributors: Felix Messmer, fmessmer
+
+0.7.10 (2024-02-20)
 -------------------
 
-2.7.9 (2023-11-06)
+0.7.9 (2023-11-06)
 ------------------
-
-2.7.8 (2022-11-18)
-------------------
-* Merge pull request `#299 <https://github.com/ipa320/cob_common/issues/299>`_ from fmessmer/foxy_port_ros2
-  [foxy] port packages
-* port cob_common
-* add COLCON_IGNORE
-* Contributors: Felix Messmer, fmessmer
 
 0.7.8 (2022-07-29)
 ------------------

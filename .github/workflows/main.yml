@@ -20,13 +20,13 @@ jobs:
       CATKIN_LINT_ARGS: '--ignore description_boilerplate'
       CMAKE_ARGS: -DCMAKE_BUILD_TYPE=Release
       PYLINT_ARGS: '--output-format=parseable --errors-only'
-      PYLINT_CHECK: false
+      PYLINT_CHECK: true
       ROS_REPO: main
 
     strategy:
       matrix:
         include:
-          - { ROS_DISTRO: foxy }
+          - { ROS_DISTRO: noetic }
 
     steps:
       - uses: actions/checkout@v4

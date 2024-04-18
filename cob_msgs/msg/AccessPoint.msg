@@ -1,5 +1,5 @@
 # This message communicates the state of the PR2's wifi access point.
-std_msgs/Header header
+Header header
 string essid
 string macaddr
 int32 signal

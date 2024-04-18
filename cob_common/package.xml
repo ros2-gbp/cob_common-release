@@ -1,8 +1,6 @@
-<?xml version="1.0"?>
-<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<package format="3">
+<package format="2">
   <name>cob_common</name>
-  <version>2.7.10</version>
+  <version>0.7.11</version>
   <description>The cob_common stack hosts common packages that are used within the Care-O-bot repository. E.g. utility packages or common message and service definitions etc. Also the urdf desciption of the robot is located in this stack.</description>
   <license>Apache 2.0</license>
 
@@ -11,15 +9,13 @@
 
   <maintainer email="felixmessmer@gmail.com">Felix Messmer</maintainer>
 
-  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>catkin</buildtool_depend>
 
   <exec_depend>cob_actions</exec_depend>
-  <exec_depend>cob_description</exec_depend>
   <exec_depend>cob_msgs</exec_depend>
   <exec_depend>cob_srvs</exec_depend>
-  <exec_depend>raw_description</exec_depend>
 
   <export>
-    <build_type>ament_cmake</build_type>
+    <metapackage/>
   </export>
 </package>

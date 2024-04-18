@@ -1,3 +1,30 @@
+## cob_common (noetic) - 0.7.11-1
+
+The packages in the `cob_common` repository were released into the `noetic` distro by running `/usr/local/bin/bloom-release --ros-distro noetic --edit cob_common` on `Thu, 18 Apr 2024 08:35:34 -0000`
+
+These packages were released:
+- `cob_actions`
+- `cob_common`
+- `cob_msgs`
+- `cob_srvs`
+
+Version of package(s) in repository `cob_common`:
+
+- upstream repository: https://github.com/4am-robotics/cob_common.git
+- release repository: https://github.com/4am-robotics/cob_common-release.git
+- rosdistro version: `0.7.10-1`
+- old version: `0.7.10-1`
+- new version: `0.7.11-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## cob_common (humble) - 2.7.10-1
 
 The packages in the `cob_common` repository were released into the `humble` distro by running `/usr/bin/bloom-release -r humble -t humble --edit --override-release-repository-url https://github.com/4am-robotics/cob_common-release.git cob_common` on `Tue, 20 Feb 2024 09:16:41 -0000`

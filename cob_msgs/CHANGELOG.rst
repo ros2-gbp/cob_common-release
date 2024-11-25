@@ -2,18 +2,33 @@
 Changelog for package cob_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.7.11 (2024-04-30)
+2.8.12 (2024-08-05)
 -------------------
 
-0.7.10 (2024-02-20)
+2.8.11 (2024-04-30)
 -------------------
 
-0.7.9 (2023-11-06)
+2.7.11 (2024-04-18)
+-------------------
+
+2.7.10 (2024-02-20)
+-------------------
+
+2.7.9 (2023-11-06)
 ------------------
-* Merge pull request `#301 <https://github.com/ipa320/cob_common/issues/301>`_ from omar-ihab-ali/update/emergency_stop_state_msg
-  update EmergencyStopState Msg to include other states sent from PLC
-* update EmergencyStopState Msg to include other states sent from PLC
+* Merge pull request `#303 <https://github.com/ipa320/cob_common/issues/303>`_ from omar-ihab-ali/update/emergency_stop_state_msg_foxy
+  update EmergencyStopState Msg to include other states sent by PLC
+* update implementation for EmergencyStopState Msg to include other states sent by PLC
 * Contributors: Benjamin Maidel, omar-ihab-ali
+
+2.7.8 (2022-11-18)
+------------------
+* Merge pull request `#299 <https://github.com/ipa320/cob_common/issues/299>`_ from fmessmer/foxy_port_ros2
+  [foxy] port packages
+* harmonize packages
+* port cob_msgs
+* add COLCON_IGNORE
+* Contributors: Felix Messmer, fmessmer
 
 0.7.8 (2022-07-29)
 ------------------

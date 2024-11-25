@@ -1,3 +1,34 @@
+## cob_common (rolling) - 2.8.12-1
+
+The packages in the `cob_common` repository were released into the `rolling` distro by running `/usr/bin/bloom-release cob_common --track rolling --rosdistro rolling --new-track` on `Mon, 25 Nov 2024 13:19:33 -0000`
+
+These packages were released:
+- `cob_actions`
+- `cob_msgs`
+- `cob_srvs`
+
+These packages were explicitly ignored:
+- `cob_common`
+- `cob_description`
+- `raw_description`
+
+Version of package(s) in repository `cob_common`:
+
+- upstream repository: https://github.com/4am-robotics/cob_common.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `2.8.12-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `0.9.1`
+- vcstools version: `0.1.42`
+
+
 ## cob_common (jazzy) - 2.8.12-1
 
 The packages in the `cob_common` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release cob_common --track jazzy --rosdistro jazzy --new-track` on `Mon, 25 Nov 2024 13:10:18 -0000`
